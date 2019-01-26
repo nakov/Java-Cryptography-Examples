@@ -9,3 +9,10 @@ Based on the following libraries:
  * Cava Crypto - https://github.com/ConsenSys/cava
  * Web3j / Crypto - https://github.com/web3j
  * Ed25519-Java - https://github.com/str4d/ed25519-java
+
+Slides: https://www.slideshare.net/nakov/cryptography-for-java-developers-nakov-jprofessionals-jan-2019
+
+Video (in Bulgarian): https://www.youtube.com/watch?v=ZG3BLXWVwJM
+
+Blog: https://nakov.com/blog/2019/01/26/cryptography-for-java-developers-nakov-at-jprofessionals-jan-2019
+
