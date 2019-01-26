@@ -1,0 +1,61 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nakov</groupId>
+    <artifactId>Java-Crypto-Examples</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+
+        <!-- Install the Bouncy Castle crypto provider for Java -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.59</version>
+        </dependency>
+
+        <!-- Install Argon2-JVM - fast Argon2 library for Java -->
+        <dependency>
+            <groupId>de.mkammerer</groupId>
+            <artifactId>argon2-jvm</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+        <!-- Install Cava Crypto - simple secp256k1 ECDSA library -->
+        <dependency>
+            <groupId>net.consensys.cava</groupId>
+            <artifactId>cava-crypto</artifactId>
+            <version>0.5.0</version>
+        </dependency>
+
+        <!-- Install Web3j Crypto - secp256k1 ECDSA library -->
+        <dependency>
+            <groupId>org.web3j</groupId>
+            <artifactId>crypto</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+
+        <!-- Install Ed25519-Java - Ed25519 EdDSA library -->
+    <dependency>
+        <groupId>net.i2p.crypto</groupId>
+        <artifactId>eddsa</artifactId>
+        <version>0.3.0</version>
+    </dependency>
+
+    </dependencies>
+
+    <!-- Configure Java version: JDK 11.0 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.11</source>
+                    <target>1.11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
